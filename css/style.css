@@ -1,0 +1,92 @@
+body{
+	overflow-x: hidden;
+}
+.img_carousel{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 650px;
+    width: 100%;
+}
+
+}
+header{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	height: 105vh;
+	padding-top: 7px;
+	padding-right: 8px;
+	margin-left: 5px;
+}
+
+.imgContent{
+	position: absolute;
+	top: 90px;
+	color: #f1f1f1;
+	width: 100%;
+	padding: 10px;
+}
+
+.imgContent h1{
+	font-family: 'Oswald' , sans-serif;
+	font-size: 4em;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.imgContent p{
+	font-family: 'Roboto condensed', sans-serif;
+	font-size: 1.3em;
+}
+.imgContent h3{
+	font-family: 'Allerta Stencil', sans-serif;
+	margin-top: 60px;
+	font-size: 2.2em;
+	color:#efefd2;
+	font-weight: bold;
+
+}
+#imgBtn{
+	font-family: 'Allerta Stencil', sans-serif;
+	display: inline-block;
+	font-size: 16px;
+	padding: 15px 40px;
+	border: none;
+	background: white;
+	color: black;
+	cursor: pointer;
+	margin-top: 18px;
+	border-radius: 50px;
+	animation: shadow-pulse 2s infinite;
+	text-transform: uppercase;
+
+}
+
+@keyframes shadow-pulse{
+	0%{
+    	box-shadow: 0 0 0 0px rgba(0,0,0,0.2);
+	}
+	100%{
+		box-shadow: 0 0 0 20px rgba(0,0,0,0);
+	}
+}
+
+#imgBtn:hover{
+	background: black;
+	color: white;
+	text-decoration:none;
+}
+
+
+#head{
+	font-family: 'Allerta Stencil', sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
